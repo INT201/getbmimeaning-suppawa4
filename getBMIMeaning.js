@@ -6,6 +6,6 @@ function calculateBMI(weight, height) {
 }
 function getBMIMeaning(weight, height) {
   let cal = calculateBMI(weight, height)  
-  return cal>18.5?cal>24.9?"Overweight":"Normal Weight":"Underweight"
+  return cal>18.5?cal>24.9?"Overweight":"Normal weight":"Underweight"
 }
 module.exports = getBMIMeaning
